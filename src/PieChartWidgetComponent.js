@@ -12,14 +12,13 @@ Scrivito.provideComponent("PieChartWidget", ({ widget }) => {
     return obj;
   });
 
-
-  /*if (!items.length) {
+  if (!items.length && Scrivito.isInPlaceEditingActive()) {
     return (
-      <InPlaceEditingPlaceholder center={ true }>
-        Set Area chart values in the widget properties.
-      </InPlaceEditingPlaceholder>
+        <h4 className="text-center">
+          Provide the piechart values in the widget properties.
+        </h4>
     );
-  }*/
+  }
 
   return (
 
