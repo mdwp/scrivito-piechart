@@ -1,6 +1,6 @@
 {
   "name": "scrivito-piechart",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A piechart React component/Scrivito widget for the Scrivito CMS.",
   "main": "index.js",
   "peerDependencies": {
