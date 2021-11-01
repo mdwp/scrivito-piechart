@@ -1,7 +1,7 @@
 import * as Scrivito from 'scrivito';
 
 Scrivito.provideEditingConfig('PieChartItemWidget', {
-    title: 'Area values',
+    title: 'Pie values',
     attributes: {
 
         name: {
